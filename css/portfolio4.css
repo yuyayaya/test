@@ -1,0 +1,411 @@
+header {
+    display: flex;
+    background: #0f8fd8;
+    color: #ffffff;
+}
+
+.portfolio{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.menu{
+    font-size: 10px;
+    display: flex;
+    justify-content:space-around;
+    margin-left:auto;
+    margin-top:10px;
+}
+
+.a{
+    padding-right:20px;
+}
+
+.top{
+    margin:20px 0px;
+}
+
+.banana{
+    background-image: url(../banana.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    white-space: nowrap;
+    position: relative;
+    color:rgb(15, 82, 60);
+    font-size: 30px;
+    font-family: "Hiragino Mincho ProN";
+    width:100%;
+    height:70px;
+    text-align: center;
+}
+
+.banana p{
+    margin: 0%;
+}
+
+.middle{
+    margin: 10px auto;
+}
+
+
+.plo1{
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Hiragino Mincho ProN";
+    line-height: 15px;
+    color:rgb(204, 49, 189);
+}
+
+h2{
+    margin: 0px;
+}
+
+h3{
+    margin: 5px;
+}
+
+.border{
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    background-color:rgb(110, 82, 188);
+    border-radius: 2px;
+}
+
+.plo2{
+    display: flex;
+    justify-content:start;
+    margin: 20px;
+}
+
+h2::first-letter{color:aquamarine}
+
+.photo{
+    margin: 20px 5%;
+    background-image: url(../banana.jpg);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    white-space: nowrap;
+    width: 50%;
+    height:130px;
+}
+
+.plo3{
+    margin: 20px 0px;
+    font-size: 12px;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plo4{
+    white-space: nowrap;
+    margin: 20px 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plo5{
+    display: flex;
+}
+
+.Self{
+    margin: 10px;
+    text-align: center;
+    background-image: url(../banana.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sel1{
+    margin: 0% auto;
+    text-align: center;
+    font-family: "Hiragino Mincho ProN";
+    line-height: 15px;
+    color:rgb(204, 49, 189);
+}
+
+.sel1-2{
+    margin: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.sel1-2 p{
+    text-align: center;
+    color:brown;
+    transform: translate(0,-20%);
+    word-break: break-all;
+}
+
+.sel2{
+    background-color:rgba(255,0,0,0.25);
+    height: 130px;
+    width: 120px;
+    border:3px solid; 
+    border-color:black;
+}
+
+.sel3{
+    background-color:rgba(255,0,0,0.25);
+    height: 130px;
+    width: 120px;
+    border:3px solid; 
+    border-color:black;
+}
+
+.sel4{
+    background-color:rgba(255,0,0,0.25);
+    height: 130px;
+    width: 120px;
+    border:3px solid; 
+    border-color:black;
+}
+
+.vis1{
+    margin: 0% auto;
+    text-align: center;
+    font-family: "Hiragino Mincho ProN";
+    line-height: 15px;
+    color:rgb(204, 49, 189);
+}
+
+.vis2 p{
+    margin: 0%;
+    text-align: center;
+}
+
+.vis2 h1{
+    text-align: center;
+    color: rgba(22,57,123,0.50);
+}
+
+.bottom{
+    margin: 0px auto;
+    background-color: #0f8fd8;
+}
+
+.bottom h4{
+    padding: 10px;
+    margin: 0px 40%;
+    text-align: center;
+    border-style:solid;
+    border-color: white;
+    border-width:1px 1px;
+}
+
+.bottom p{
+    margin: 5px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px){
+
+    header {
+        display: flex;
+        background: #0f8fd8;
+        color: #ffffff;
+    }
+
+    .portfolio{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .menu{
+        font-size: 10px;
+        display: flex;
+        justify-content:space-around;
+        margin-left:auto;
+        margin-top:10px;
+    }
+
+    .a{
+        padding-right:20px;
+    }
+
+    .top{
+        margin:20px 0px;
+    }
+
+    .banana{
+        background-image: url(../banana.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        white-space: nowrap;
+        position: relative;
+        color:rgb(15, 82, 60);
+        font-size: 30px;
+        font-family: "Hiragino Mincho ProN";
+        width:100%;
+        height:70px;
+        text-align: center;
+    }
+
+    .banana p{
+        margin: 0%;
+    }
+
+    .middle{
+        margin: 10px auto;
+    }
+
+    h2::first-letter{color:aquamarine}
+
+    .plo1{
+        margin: 0px auto;
+        text-align: center;
+        font-family: "Hiragino Mincho ProN";
+        line-height: 15px;
+        color:rgb(204, 49, 189);
+    }
+
+    h2{
+        margin: 0px;
+    }
+
+    h3{
+        margin: 5px;
+    }
+
+    .border{
+        content: '';
+        display: inline-block;
+        width: 60px;
+        height: 5px;
+        background-color:rgb(110, 82, 188);
+        border-radius: 2px;
+    }
+
+    .plo2{
+        display: flex;
+        justify-content:start;
+        flex-direction:column;
+        margin: 0px;
+    }
+
+    .photo{
+        margin: 20px auto;
+        background-image: url(../banana.jpg);
+        background-repeat: no-repeat;
+        background-size: 70% 100%;
+        white-space: nowrap;
+        width: 50%;
+        height:130px;
+    }
+
+    .plo3{
+        margin: 20px 0px;
+        font-size: 12px;
+        text-align: end;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .plo4{
+        white-space: nowrap;
+        margin: 20px 10px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .plo5{
+        display: flex;
+        margin: 10px auto;
+    }
+
+    .Self{
+        margin: 10px;
+        text-align: center;
+        background-image: url(../banana.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .sel1{
+        margin: 0% auto;
+        text-align: center;
+        font-family: "Hiragino Mincho ProN";
+        line-height: 15px;
+        color:rgb(204, 49, 189);
+    }
+
+    .sel1-2{
+        margin: 20px;
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+
+    .sel1-2 p{
+        text-align: center;
+        color:brown;
+        transform: translate(0,-20%);
+        word-break: break-all;
+    }
+
+    .sel2{
+        margin: 20px auto;
+        background-color:rgba(255,0,0,0.25);
+        height: 130px;
+        width: 120px;
+        border:3px solid; 
+        border-color:black;
+    }
+
+    .sel3{
+        margin: 20px auto;
+        background-color:rgba(255,0,0,0.25);
+        height: 130px;
+        width: 120px;
+        border:3px solid; 
+        border-color:black;
+    }
+
+    .sel4{
+        margin: 20px auto;
+        background-color:rgba(255,0,0,0.25);
+        height: 130px;
+        width: 120px;
+        border:3px solid; 
+        border-color:black;
+    }
+
+    .vis1{
+        margin: 0% auto;
+        text-align: center;
+        font-family: "Hiragino Mincho ProN";
+        line-height: 15px;
+        color:rgb(204, 49, 189);
+    }
+
+    .vis2 p{
+        margin: 0%;
+        text-align: center;
+    }
+
+    .vis2 h1{
+        text-align: center;
+        color: rgba(22,57,123,0.50);
+    }
+
+    .bottom{
+        margin: 0px auto;
+        background-color: #d80fd5;
+    }
+
+    .bottom h4{
+        padding: 10px;
+        margin: 0px 40%;
+        text-align: center;
+        border-style:solid;
+        border-color: white;
+        border-width:1px 1px;
+    }
+
+    .bottom p{
+        margin: 5px;
+        text-align: center;
+    }
+
+}

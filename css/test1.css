@@ -1,0 +1,22 @@
+.A {
+    display:flex;
+    justify-content:space-evenly;
+    position:relative;
+    top:50px;
+    left:50px;
+}
+h1 {
+	color: red;
+	font-size: 30px;
+}
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+    h1 {
+    color: #00FFFF; /*青色*/
+    }
+    }
+
+    @media screen and (max-width: 700px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+        h1 {
+        color: #00FF00; /*緑色*/
+        }
+        }

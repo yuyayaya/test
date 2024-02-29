@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    background: #0f8fd8;
+    color: #ffffff;
+}
+
+.portfolio{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.menu{
+    font-size: 10px;
+    display: flex;
+    justify-content:space-around;
+    margin-left:auto;
+    margin-top:10px;
+}
+
+.a{
+    padding-right:20px;
+}
+
+.banana{
+    white-space: nowrap;
+    position: relative;
+    height:auto;
+    color:rgb(15, 82, 60);
+    font-size: 30px;
+    font-family: "Hiragino Mincho ProN";
+}
+
+
+.banana .banana1{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    margin:auto;
+}
+
+.banana .banana2{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-60%);
+    margin:auto;
+}

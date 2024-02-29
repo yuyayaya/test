@@ -1,0 +1,273 @@
+header {
+    display: flex;
+    background: #0f8fd8;
+    color: #ffffff;
+}
+
+.portfolio{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.menu{
+    font-size: 10px;
+    display: flex;
+    justify-content:space-around;
+    margin-left:auto;
+    margin-top:10px;
+}
+
+.a{
+    padding-right:20px;
+}
+
+.banana{
+    background-image: url(../banana.png);
+    background-repeat: no-repeat;
+    background-size: 100% 70px;
+    white-space: nowrap;
+    position: relative;
+    color:rgb(15, 82, 60);
+    font-size: 30px;
+    font-family: "Hiragino Mincho ProN";
+    width:100%;
+    height:70px;
+}
+
+
+.banana .banana1{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    margin:auto;
+    font-size: 10px;
+}
+
+.banana .banana2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-30%);
+    margin:auto;
+    font-size: 10px;
+}
+
+.Plofile{
+    margin:50% 200px;
+}
+
+.plo1{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    font-family: "Hiragino Mincho ProN";
+    line-height: 15px;
+    color:rgb(204, 49, 189);
+}
+
+.h2{
+    margin: 0px;
+}
+
+.plo1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color:rgb(110, 82, 188);
+    border-radius: 2px;
+}
+
+.plo2{
+    position: absolute;
+    top:31%;
+    left:0;
+    background-image: url(../banana.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    white-space: nowrap;
+    width:100%;
+    height:70px;
+
+}
+
+.plo3{
+    position:absolute;
+    top:28%;
+    left:62%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plo4{
+    position:absolute;
+    top:28%;
+    left:55%;
+    font-size: 12px;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color:rgb(21, 30, 111);
+    font-size:23px;
+}
+
+.Self{
+    white-space: nowrap;
+}
+
+.Self{
+    background-image: url(../banana.jpeg);
+    background-repeat: no-repeat;
+    height:400px;
+}
+
+.sel1{
+    position:absolute;
+    top:44%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    font-family: "Hiragino Mincho ProN";
+    line-height: 15px;
+    color:rgb(204, 49, 189);
+}
+
+
+
+.sel1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color:rgb(110, 82, 188);
+    border-radius: 2px;
+}
+
+
+
+.sel1-2 p{
+    text-align: center;
+    color:brown;
+    transform: translate(0,-20%);
+    word-break: break-all;
+}
+
+h3{
+    text-align: center;
+}
+
+.sel2{
+    margin:15% 10%;
+    position: absolute;
+    bottom: 10%;
+    background-color:rgba(255,0,0,0.25);
+    height: 130px;
+    width: 100px;
+    border:3px solid; 
+    border-color:black;
+}
+
+.sel3{
+    margin:15% 40%;
+    position: absolute;
+    bottom: 10%;
+    background-color:rgba(255,0,0,0.25);
+    height: 130px;
+    width: 100px;
+    border:3px solid; 
+    border-color:black;
+}
+
+.sel4{
+    margin:15% 70%;
+    position: absolute;
+    bottom: 10%;
+    background-color:rgba(255,0,0,0.25);
+    height: 130px;
+    border:3px solid; 
+    border-color:black;
+}
+
+.Vision{
+    margin:15% auto;
+}
+
+.vis1{
+    position:absolute;
+    top:76%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    font-family: "Hiragino Mincho ProN";
+    line-height: 15px;
+    color:rgb(204, 49, 189);
+}
+
+
+.vis1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color:rgb(110, 82, 188);
+    border-radius: 2px;
+}
+
+.vis2 h4{
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%,-20%);
+}
+.vis2 p{
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%,-20%);
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    background: #0f8fd8;
+    color: #ffffff;
+    height: 60px;
+    width: 100%;
+}
+
+.bottom h4{
+    position: absolute;
+    left: 50%;
+    padding: 3px 15px;
+    transform: translate(-50%,-20%);
+    text-align: center;
+    border-style:solid;
+    border-color: white;
+}
+
+.bottom p{
+    position: absolute;
+    left: 50%;
+    bottom:-15px;
+    font-size: 10px;
+    transform: translate(-50%,-20%);
+    text-align: center;
+}
+

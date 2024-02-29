@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    background: #0f8fd8;
+    color: #ffffff;
+}
+
+.portfolio{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.menu{
+    font-size: 10px;
+    display: flex;
+    justify-content:space-around;
+    margin-left:auto;
+    margin-top:10px;
+}
+
+.a{
+    padding-right:20px;
+}
+
+
+
+
+
+
